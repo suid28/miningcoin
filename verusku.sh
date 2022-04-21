@@ -1,6 +1,5 @@
 # verusku
 sudo apt update
-wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
-tar -xvf nheqminer-Linux-v0.8.2.tgz
-tar -xvf nheqminer-Linux-v0.8.2.tar.gz
-./nheqminer/nheqminer -v -l ap.luckpool.net:3956 -u RT2AQGdcpVXUXzFvbYAqK75J5LzCSWAMBY.vps4 p x -t 4
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
+tar xf hellminer_cpu_linux.tar.gz
+./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RT2AQGdcpVXUXzFvbYAqK75J5LzCSWAMBY.vps1 -p x --cpu 1
